@@ -1,3 +1,4 @@
 # mockTest
 CI = 500 => nota "0"
-> 50 crear estado "aprobado"
+crear nuevo field estado
+si nota > 50 devolver estado "aprobado"
