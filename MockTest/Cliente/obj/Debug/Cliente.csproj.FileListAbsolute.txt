@@ -1,0 +1,8 @@
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Cliente.exe.config
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Cliente.exe
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Cliente.pdb
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Core.dll
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Core.pdb
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.exe
+c:\users\diplomado\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.pdb
