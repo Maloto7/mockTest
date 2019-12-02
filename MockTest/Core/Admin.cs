@@ -30,5 +30,14 @@ namespace Core
             }
             return ListaAlumnos;
         }
+        public List<Alumno> GetEstado()
+        {
+            ListaAlumnos = serv.GetAlumnos();
+            foreach (var alumno in ListaAlumnos)
+            {
+                alumno.Estado = serv.GetEstado(alumno.Nota);
+            }
+            return ListaAlumnos;
+        }
     }
 }

@@ -11,5 +11,6 @@ namespace Core
         void Validar(string token);
         List<Alumno> GetAlumnos();
         int GetNota(int CI);
+        string GetEstado(int Nota);
     }
 }

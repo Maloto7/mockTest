@@ -12,6 +12,8 @@ namespace Core
 
         public String Nombre { get; set; }
 
+        public String Estado { get; set; }
+
         public int Nota { get; set; }
     }
 }

@@ -12,17 +12,33 @@ namespace Core
         public List<Alumno> GetAlumnos()
         {
             List<Alumno> result = new List<Alumno>();
-            result.Add(new Alumno() { CI = 6677, Nombre = "Pedro juares" });
-            result.Add(new Alumno() { CI = 1177, Nombre = "Maria Peres" });
-            result.Add(new Alumno() { CI = 2277, Nombre = "Juan Alarcon" });
-            result.Add(new Alumno() { CI = 3377, Nombre = "Marcelo Paredes" });
-            result.Add(new Alumno() { CI = 4477, Nombre = "Julia Flores" });
+            result.Add(new Alumno() { CI = 667, Nombre = "Pedro juares", Nota = 10 });
+            result.Add(new Alumno() { CI = 117, Nombre = "Maria Peres", Nota = 80 });
+            result.Add(new Alumno() { CI = 227, Nombre = "Juan Alarcon", Nota = 20 });
+            result.Add(new Alumno() { CI = 337, Nombre = "Marcelo Paz", Nota = 30 });
+            result.Add(new Alumno() { CI = 500, Nombre = "Julia Flores", Nota = 90 });
             return result;
+        }
+
+        public string GetEstado(int nota)
+        {
+            string estado = "Reprovado";
+            if (nota > 50)
+            {
+                estado = "Aprobado";
+            }
+            return estado;
         }
 
         public int GetNota(int CI)
         {
             int nota = rmd.Next(1, 100);
+            
+            if (CI == 500)
+            {
+                nota = 0;
+            }
+           
             return nota; 
         }
 
